@@ -4,7 +4,24 @@
 
 *PROJETO EMDESENVOLVIMENTO🍷🗿
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/zumgabutm/PR0/main/ssh-plus)
+wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/ssh-plus | bash
+
+
+wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/ssh-plus | bash
+
+
+
+wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/ssh-plus | bash
+
+
+
+wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/ssh-plus | bash
+
+
+
+wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/ssh-plus | bash
+
+
 
 ```
 
