@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 #--------------------------
-# PX_PROXY_SSH
+# SCRIPt SCOTT PRO
 # CANAL TELEGRAM: @scottssh
 #--------------------------
 
@@ -60,6 +60,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/Plus | bash
-
-
+wget raw.githubusercontent.com/zumgabutm/PR0/main/script/${arch}/Plus && chmod 777 Plus && ./Plus

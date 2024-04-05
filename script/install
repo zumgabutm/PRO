@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
 #--------------------------
-# SCRIPR RS_PROXY_SSH
-# CANAL TELEGRAM: @RSAPKDM
+# SCRIPR SSH-PLUS
+# CANAL TELEGRAM: @scottsshd
 #--------------------------
 
 # - Cores
@@ -60,4 +60,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus | bash/${arch}/Plus && chmod 777 Plus && ./Plus
+wget raw.githubusercontent.com/zumgabutm/main/script/${arch}/Plus && chmod 777 Plus && ./Plus

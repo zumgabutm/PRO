@@ -3,4 +3,5 @@ clear
 figlet "SCOTT-PRO" | lolcat
 echo -e "\033[1;33mINICIANDO, INSTALADOR \033[0m"
 sleep 2s
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus | bash; chmod 777 ./install; ./install
+wget https://raw.githubusercontent.com/zumgabutm/PR0/main/F2/F3/install; chmod 777 ./install; ./install
+

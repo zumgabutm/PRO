@@ -1,30 +1,9 @@
-# RS-PROXY PRO ⚡
+# SCOTT PRO ⚡
 
-# @RSAPKDM
+# @SCOTTSSH
 
-*PROJETO EMDESENVOLVIMENTO🍷🗿
+*PROJETO EM BETA🍷🗿
 ```
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus | bash
-
-
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus | bash
-
-
-
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus | bash
-
-
-
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus | bash
-
-
-
-wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus | bash
-
-
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/ScottBrabo/PR0/main/ssh-plus)
 
 ```
-
-
-
-

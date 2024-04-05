@@ -89,4 +89,4 @@ service ssh restart >/dev/null 2>&1
 rm -rf $lst1/list >/dev/null 2>&1
 mkdir /opt/sshplus
 echo > /opt/sshplus/sshplus
-cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/zumgabutm/PR0/main/Modulos/WebSocket && wget https://raw.githubusercontent.com/zumgabutm/PR0/main/Modulos/pub.key && wget https://raw.githubusercontent.com/ScottBrabo/PR0/main/Modulos/priv.pem && chmod 777 WebSocket && cd $HOME
+cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/zumgabutm/PR0/main/Modulos/WebSocket && wget https://raw.githubusercontent.com/zumgabutm/PR0/main/Modulos/pub.key && wget https://raw.githubusercontent.com/zumgabutm/PR0/main/Modulos/priv.pem && chmod 777 WebSocket && cd $HOME
