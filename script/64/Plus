@@ -15,10 +15,41 @@ _lnk=$(echo 'z1:y#x.5s0ul&p4hs$s.0a72d*n-e!v89e032:3r' | sed -e 's/[^a-z.]//ig' 
 _Ink=$(echo '/3×u3#s87r/l32o4×c1a×l1/83×l24×i0b×' | sed -e 's/[^a-z/]//ig')
 _1nk=$(echo '/3×u3#s×87r/83×l2×4×i0b×' | sed -e 's/[^a-z/]//ig')
 cd $HOME
+# Função para verificar a chave
+function verif_key() {
+    local key="$1"
+    key_accepted=false
+    for i in {1..10}; do
+        # Baixa o arquivo de chaves diretamente no servidor
+        wget -q -O keys.txt https://sshplus.fun/keys.txt
+        
+        # Exibir o conteúdo do arquivo baixado para verificação
+        echo -e "SENHA VERIFICADA..."
+        cat keys.txt
+        
+        # Verifica se a chave está presente no arquivo
+        if grep -q "$key" keys.txt; then
+            echo -e "\n\033[1;32mSENHA ACEITA!\033[0m"
+            key_accepted=true
+            break
+        fi
+        sleep 2s
+    done
+        # Se a chave não for aceita após 10 tentativas
+    if [ "$key_accepted" = false ]; then
+        echo -e "\n\033[1;31SENHA INCORRETA!\033[0m"
+        exit 1
+    fi
+    }
+# Solicitar chave de acesso e ler a entrada do usuário
+read -p "Digite sua chave de acesso: " chave_acesso
+
+# Chamar função para verificar chave
+verif_key "$chave_acesso"
+
 fun_bar() {
     comando[0]="$1"
     comando[1]="$2"
-    (
         [[ -e $HOME/fim ]] && rm $HOME/fim
         ${comando[0]} -y >/dev/null 2>&1
         ${comando[1]} -y >/dev/null 2>&1
