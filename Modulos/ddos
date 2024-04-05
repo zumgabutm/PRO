@@ -59,7 +59,7 @@ read -p "$(echo -e "\033[1;32mOQUE DESEJA FAZER\033[1;31m ?\033[1;37m : ")" lo_o
 if [ "$lo_og" = "2" ]; then
 
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m               PROTECAO RACKER                      \E[0m"
+echo -e "\E[41;1;37m               ANTI ATAQUE DDOS Log                       \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 cat /var/log/fail2ban.log
 echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
@@ -67,7 +67,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 fi
 if [ "$lo_og" = "1" ]; then
 echo ""
-echo -e "\033[1;32mREMOVENDO PROTECAO RACKER"
+echo -e "\033[1;32mREMOVENDO ANTI ATAQUE DDOS"
 echo ""
 fun_bar "apt-get remove fail2ban -y"
 fi
@@ -88,7 +88,7 @@ echo -e "\033[1;32mINSTALANDO"
 echo ""
 fun_bar "apt-get install fail2ban -y"
 cd $HOME
-wget -O fail2ban wget https://www.mediafire.com/file/ozpg2ilex8qql0a/fail2ban-0.9.4.tar.gz/file -O fail2ban-0.9.4.tar.gz /dev/null
+wget -O fail2ban https://www.dropbox.com/s/qtz4aihjnwpth7y/fail2ban-0.9.4.tar.gz?dl=0 -o /dev/null
 tar -xf $HOME/fail2ban
 cd $HOME/fail2ban-0.9.4
 ./setup.py install > /dev/null 2>&1

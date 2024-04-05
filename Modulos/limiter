@@ -1,9 +1,9 @@
 #!/bin/bash
 #====================================================
-#	SCRIPT: LIMITER RS_APP_MOD-SSH
-#	DEUS E FIEL: SALMO 23
-#	CONTATO TELEGRAM:	http://t.me/RSAPKDM
-#	CANAL TELEGRAM:	http://t.me/RSAPKDM
+#	SCRIPT: LIMITER SSHPLUS MANAGER
+#	DESENVOLVIDO POR:	CRAZY_VPN
+#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
+#	CANAL TELEGRAM:	http://t.me/sshplus
 #====================================================
 clear
 system=$(cat /etc/issue.net)

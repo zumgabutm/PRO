@@ -1,9 +1,9 @@
 #!/bin/bash
 #===================================================
-#	SCRIPT: OTIMIZAR	RS_APP_MOD-SSH
+#	SCRIPT: OTIMIZAR	SCOTT PLUS
 #	DESENVOLVIDO POR:	scott
-#	CONTATO TELEGRAM:	http://t.me/RSAPKDM
-#	CANAL TELEGRAM:	http://t.me/RSAPKDM
+#	CONTATO TELEGRAM:	http://t.me/scottssh
+#	CANAL TELEGRAM:	http://t.me/scottsshd
 #===================================================
 fun_bar() {
 	comando[0]="$1"

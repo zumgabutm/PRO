@@ -1,6 +1,6 @@
 #!/bin/bash
 ####################################<
-### "BY RS_MOD_APP >> @RSAPKDM <<" ###
+### "BY ACKHTTP SERVER MANAGER >> @GODYSKYUP <<" ###
 ####################################<
 user=$(whoami)
 if [ "$user" != "root" ]; then
