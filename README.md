@@ -1,9 +1,9 @@
-# SCOTT PRO ⚡
+# RS-PROXY-SSH⚡
 
 # @SCOTTSSH
 
 *PROJETO EM BETA🍷🗿
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/ScottBrabo/PR0/main/ssh-plus)
+wget -qO- https://raw.githubusercontent.com/zumgabutm/PRO/main/script/64/Plus| bash
 
 ```
