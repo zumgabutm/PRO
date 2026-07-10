@@ -3,7 +3,7 @@ clear
 ###############################################################
 #Programa para bloquear temporariamente e desbloquear contas de usuario"
 ###############################################################
-#INFORT PRO MANAGER
+#SCOTT PRO MANAGER
 ###############################################################
 clear
 while [  "$op"  !=  "3" ]
